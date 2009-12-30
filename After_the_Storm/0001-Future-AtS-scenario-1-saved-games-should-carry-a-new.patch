@@ -1,0 +1,25 @@
+From 39447f7ed7fe73ab6730495278569668f4b38aa7 Mon Sep 17 00:00:00 2001
+From: Ignacio R. Morelle <shadowm@wesnoth.org>
+Date: Sun, 27 Dec 2009 11:02:49 -0300
+Subject: [PATCH 1/4] Future AtS scenario 1 saved games should carry a new default
+ end-of-campaign text to match IftU/AtS/TSL's continuity status
+
+---
+ _main.cfg |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+diff --git a/_main.cfg b/_main.cfg
+index 799277f..e52e49c 100644
+--- a/_main.cfg
++++ b/_main.cfg
+@@ -43,6 +43,7 @@
+ <span color='#888'>"+_"Version:"+"{~add-ons/After_the_Storm/dist/VERSION}"+"
+ "+_"(requires Wesnoth 1.7.8 or later)"+"</span>"
+     first_scenario="01_The_Skirmish"
++    end_text= _ "To be continued..."
+     rank=257
+     abbrev=_"AtS-1"
+     icon="ats-icon.png~RC(magenta>red)"
+-- 
+1.6.5
+

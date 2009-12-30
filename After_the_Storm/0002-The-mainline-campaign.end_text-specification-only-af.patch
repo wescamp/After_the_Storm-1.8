@@ -1,0 +1,26 @@
+From 7b8e30b9d08372637963d3a7cccfc02afecac538 Mon Sep 17 00:00:00 2001
+From: Ignacio R. Morelle <shadowm@wesnoth.org>
+Date: Sun, 27 Dec 2009 11:08:34 -0300
+Subject: [PATCH 2/4] The mainline campaign.end_text specification only affects fresh
+ gamestates generated when starting the campaign, so force our custom
+ end_text on dummy WIP scenarios for now
+
+---
+ macros/scenario-utils.cfg |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+diff --git a/macros/scenario-utils.cfg b/macros/scenario-utils.cfg
+index 1843be8..f742b0e 100644
+--- a/macros/scenario-utils.cfg
++++ b/macros/scenario-utils.cfg
+@@ -271,6 +271,7 @@ All feedback is welcome on the <u>forums.wesnoth.org</u> thread <i>After the Sto
+         [endlevel]
+             save,carryover_report,linger_mode=no,no,no
+             next_scenario=null
++            end_text= _ "To be continued..."
+         [/endlevel]
+     [/event]
+ #enddef
+-- 
+1.6.5
+

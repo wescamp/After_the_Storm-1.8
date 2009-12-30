@@ -1,0 +1,26 @@
+From 735839b146c93bc10400307e53c130f5252f79dc Mon Sep 17 00:00:00 2001
+From: Ignacio R. Morelle <shadowm@wesnoth.org>
+Date: Sun, 27 Dec 2009 11:11:52 -0300
+Subject: [PATCH 4/4] Balancing AtS scenario 1.05: turn limit decreased
+
+{DIFF 40 37 35} -> {DIFF 22 20 18}
+---
+ scenarios/05_Bay_of_Tirigaz.cfg |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/scenarios/05_Bay_of_Tirigaz.cfg b/scenarios/05_Bay_of_Tirigaz.cfg
+index 2148af6..c2495a9 100644
+--- a/scenarios/05_Bay_of_Tirigaz.cfg
++++ b/scenarios/05_Bay_of_Tirigaz.cfg
+@@ -4,7 +4,7 @@
+     id=05_Bay_of_Tirigaz
+     name= _ "Bay of Tirigaz"
+     {MAP 05_Bay_of_Tirigaz.map}
+-    {TURNS 40 37 35}
++    {TURNS 22 20 18}
+     next_scenario="06_Quenoth_Isle"
+ 
+     {A_DEATHS}
+-- 
+1.6.5
+
