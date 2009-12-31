@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2009-12-27 16:38+0100\n"
+"POT-Creation-Date: 2009-12-31 17:39+0100\n"
 "PO-Revision-Date: 2009-02-09 22:13+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #. [campaign]: id=After_the_Storm_I
 #: After_the_Storm/_main.cfg:41
-msgid "(Intermediate level, 4 scenarios of 12[?] completed.)"
+msgid "(Intermediate level, 5 scenarios of 12[?] completed.)"
 msgstr ""
 
 #. [campaign]: id=After_the_Storm_I
@@ -40,97 +40,94 @@ msgid "(requires Wesnoth 1.7.8 or later)"
 msgstr ""
 
 #. [campaign]: id=After_the_Storm_I
-#: After_the_Storm/_main.cfg:47
+#. [endlevel]
+#: After_the_Storm/_main.cfg:46 After_the_Storm/macros/scenario-utils.cfg:274
+#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:87
+msgid "To be continued..."
+msgstr ""
+
+#. [campaign]: id=After_the_Storm_I
+#: After_the_Storm/_main.cfg:48
 msgid "AtS-1"
 msgstr ""
 
 #. [campaign]: id=After_the_Storm_I
-#: After_the_Storm/_main.cfg:50
+#: After_the_Storm/_main.cfg:51
 msgid "(Hard)"
 msgstr ""
 
 #. [campaign]: id=After_the_Storm_I
-#: After_the_Storm/_main.cfg:50
+#: After_the_Storm/_main.cfg:51
 msgid "difficulty_menu^Banebow"
 msgstr ""
 
 #. [campaign]: id=After_the_Storm_I
-#: After_the_Storm/_main.cfg:50
+#: After_the_Storm/_main.cfg:51
 msgid "(Easy)"
 msgstr ""
 
 #. [campaign]: id=After_the_Storm_I
-#: After_the_Storm/_main.cfg:50
+#: After_the_Storm/_main.cfg:51
 msgid "(Normal)"
 msgstr ""
 
 #. [campaign]: id=After_the_Storm_I
-#: After_the_Storm/_main.cfg:50
+#: After_the_Storm/_main.cfg:51
 msgid "difficulty_menu^Wraith"
 msgstr ""
 
 #. [campaign]: id=After_the_Storm_I
-#: After_the_Storm/_main.cfg:50
+#: After_the_Storm/_main.cfg:51
 msgid "difficulty_menu^Skeleton"
 msgstr ""
 
 #. [about]
-#: After_the_Storm/about.cfg:10
+#: After_the_Storm/about.cfg:13
 msgid "Creator and Lead Designer"
 msgstr ""
 
 #. [about]
-#: After_the_Storm/about.cfg:20
+#: After_the_Storm/about.cfg:22
 msgid "Campaign Maintenance"
 msgstr ""
 
 #. [about]
-#: After_the_Storm/about.cfg:27
-msgid "Maintenance and release toolkit"
+#: After_the_Storm/about.cfg:31
+msgid "Non-maintainer Uploads"
 msgstr ""
 
 #. [about]
-#: After_the_Storm/about.cfg:35
+#: After_the_Storm/about.cfg:38
 msgid "Graphics"
 msgstr ""
 
 #. [about]
-#: After_the_Storm/about.cfg:69
-msgid "Sound effects"
-msgstr ""
-
-#. [about]
-#: After_the_Storm/about.cfg:77
-msgid "SVN services and hosting"
+#: After_the_Storm/about.cfg:71
+msgid "SVN services, maintenance toolkit and primary hosting"
 msgstr ""
 
 #. [entry]
-#: After_the_Storm/about.cfg:79
+#: After_the_Storm/about.cfg:73
 msgid "Coordinated Wesnoth UMC Development Project"
 msgstr ""
 
 #. [about]
-#: After_the_Storm/about.cfg:84
-msgid "Web hosting"
-msgstr ""
-
-#. [about]
-#: After_the_Storm/about.cfg:91
+#: After_the_Storm/about.cfg:80
 msgid "IRC Bots"
 msgstr ""
 
 #. [about]
-#: After_the_Storm/about.cfg:102
+#: After_the_Storm/about.cfg:90
 msgid "Additional thanks to"
 msgstr ""
 
 #. [entry]
-#: After_the_Storm/about.cfg:130
+#: After_the_Storm/about.cfg:113
 msgid "You, for playing this campaign"
 msgstr ""
 
 #. [entry]
-#: After_the_Storm/about.cfg:133
+#: After_the_Storm/about.cfg:116
 msgid "Anyone else I could forget to mention"
 msgstr ""
 
@@ -394,12 +391,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=narrator
-#: After_the_Storm/macros/scenario-utils.cfg:337
+#: After_the_Storm/macros/scenario-utils.cfg:338
 msgid "You retrieve $temp_gold_retrieval_amount pieces of gold."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: After_the_Storm/macros/scenario-utils.cfg:356
+#: After_the_Storm/macros/scenario-utils.cfg:357
 msgid "You receive $temp_gold_retrieval_amount pieces of gold!"
 msgstr ""
 
@@ -825,8 +822,8 @@ msgstr ""
 #: After_the_Storm/scenarios/03_Civil_War.cfg:41
 #: After_the_Storm/scenarios/04_Terror_at_Dusk.cfg:56
 #: After_the_Storm/scenarios/02_High_Pass.cfg:39
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:41
-#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:39
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:39
+#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:43
 msgid "team_name^Galas"
 msgstr ""
 
@@ -835,8 +832,8 @@ msgstr ""
 #: After_the_Storm/scenarios/03_Civil_War.cfg:47
 #: After_the_Storm/scenarios/04_Terror_at_Dusk.cfg:62
 #: After_the_Storm/scenarios/02_High_Pass.cfg:47
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:47
-#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:45
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:45
+#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:49
 msgid "Galas"
 msgstr ""
 
@@ -878,8 +875,8 @@ msgstr ""
 #: After_the_Storm/scenarios/03_Civil_War.cfg:630
 #: After_the_Storm/scenarios/04_Terror_at_Dusk.cfg:144
 #: After_the_Storm/scenarios/02_High_Pass.cfg:254
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:349
-#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:68
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:534
+#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:73
 msgid "Death of Galas"
 msgstr ""
 
@@ -892,8 +889,8 @@ msgstr ""
 #: After_the_Storm/scenarios/03_Civil_War.cfg:631
 #: After_the_Storm/scenarios/04_Terror_at_Dusk.cfg:145
 #: After_the_Storm/scenarios/02_High_Pass.cfg:255
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:350
-#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:69
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:535
+#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:74
 msgid "Death of Elynia"
 msgstr ""
 
@@ -906,8 +903,8 @@ msgstr ""
 #: After_the_Storm/scenarios/03_Civil_War.cfg:632
 #: After_the_Storm/scenarios/04_Terror_at_Dusk.cfg:146
 #: After_the_Storm/scenarios/02_High_Pass.cfg:256
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:351
-#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:70
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:536
+#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:75
 msgid "Death of Mal Keshar"
 msgstr ""
 
@@ -920,8 +917,8 @@ msgstr ""
 #: After_the_Storm/scenarios/03_Civil_War.cfg:633
 #: After_the_Storm/scenarios/04_Terror_at_Dusk.cfg:147
 #: After_the_Storm/scenarios/02_High_Pass.cfg:257
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:356
-#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:72
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:541
+#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:77
 msgid "Turns run out"
 msgstr ""
 
@@ -971,13 +968,12 @@ msgstr ""
 
 #. [message]: role=guard_2
 #: After_the_Storm/scenarios/01_The_Skirmish.cfg:328
-msgid ""
-"Sorry, but we were ordered not to let anybody... pa... she's... beautiful."
+msgid "Sorry, but we were ordered not to let anybody...pa...she's...beautiful."
 msgstr ""
 
 #. [message]: role=guard_3
 #: After_the_Storm/scenarios/01_The_Skirmish.cfg:332
-msgid "Oh my, a fairy?"
+msgid "A fairy?"
 msgstr ""
 
 #. [message]: speaker=Elynia
@@ -1023,7 +1019,7 @@ msgstr ""
 #: After_the_Storm/scenarios/01_The_Skirmish.cfg:375
 msgid ""
 "You are not signaling the entire town of our presence, are you? Such a "
-"handsome man could spend the night doing... more interesting things, than "
+"handsome man could spend the night doing...more interesting things, than "
 "fighting us..."
 msgstr ""
 
@@ -1166,8 +1162,7 @@ msgstr ""
 #. [message]: speaker=Galas
 #: After_the_Storm/scenarios/01_The_Skirmish.cfg:532
 msgid ""
-"No problem; we just need a few provisions for our journey to the Northern "
-"country."
+"No problem; we just need provisions for our journey to the Northern country."
 msgstr ""
 
 #. [message]: speaker=Morzey
@@ -1190,7 +1185,7 @@ msgstr ""
 
 #. [message]: speaker=Mal Keshar
 #: After_the_Storm/scenarios/01_The_Skirmish.cfg:552
-msgid "I <i>control</i> the dead, no need to worry about them."
+msgid "I <i>control</i> the dead. We don't need to worry about them."
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -1202,8 +1197,7 @@ msgstr ""
 
 #. [message]: speaker=Elynia
 #: After_the_Storm/scenarios/01_The_Skirmish.cfg:593
-msgid ""
-"Oh, no! We have run out of time, they have arrived with reinforcements..."
+msgid "Oh, no! We have run out of time, and their reinforcements have arrived!"
 msgstr ""
 
 #. [scenario]: id=02_High_Pass
@@ -1832,117 +1826,140 @@ msgid "Bay of Tirigaz"
 msgstr ""
 
 #. [side]: id=Tan-Vatar, type=Orcish Sovereign
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:60
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:58
 msgid "team_name^Tirigaz"
 msgstr ""
 
 #. [side]: id=Tan-Vatar, type=Orcish Sovereign
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:68
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:66
 msgid "Tan-Vatar"
 msgstr ""
 
 #. [side]: id=Rishix, type=Saurian Flanker
 #. [side]: id=Ishkaal, type=Saurian Oracle
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:224
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:272
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:230
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:307
 msgid "Invaders"
 msgstr ""
 
 #. [side]: id=Rishix, type=Saurian Flanker
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:230
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:236
 msgid "Rishix"
 msgstr ""
 
 #. [side]: id=Ishkaal, type=Saurian Oracle
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:278
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:314
 msgid "Ishkaal"
 msgstr ""
 
 #. [side]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:291
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:380
 msgid "Sea creatures"
 msgstr ""
 
+#. [side]
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:402
+msgid "Water serpents"
+msgstr ""
+
 #. [label]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:310
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:435
 msgid "Arthol"
 msgstr ""
 
 #. [label]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:314
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:439
 msgid "Tirigaz"
 msgstr ""
 
 #. [label]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:318
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:443
 msgid "Krisval"
 msgstr ""
 
 #. [label]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:322
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:447
 msgid "Burdyr"
 msgstr ""
 
+#. [message]: speaker=narrator
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:487
+msgid "N: Bisbarl"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:506
+msgid ""
+"N: Bisbarl\n"
+"NW: Port of Tirigaz\n"
+"NE: Arthol"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:523
+msgid "SW: Province of Wyndill"
+msgstr ""
+
 #. [event]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:347
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:532
 msgid "Defeat both enemy leaders"
 msgstr ""
 
 #. [event]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:352
-#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:71
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:537
+#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:76
 msgid "Death of Kri'tan"
 msgstr ""
 
 #. [event]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:353
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:538
 msgid "Death of Vuruk"
 msgstr ""
 
 #. [event]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:354
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:539
 msgid "Death of the ally leader"
 msgstr ""
 
 #. [event]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:355
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:540
 msgid "The port of Tirigaz or the town of Arthol are captured by the enemy"
 msgstr ""
 
 #. [value]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:371
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:556
 msgid "170 gold! It seems it was a trading ship!"
 msgstr ""
 
 #. [value]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:375
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:560
 msgid "Bah, only 25 pieces of gold. Better than nothing, I guess."
 msgstr ""
 
 #. [value]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:379
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:564
 msgid "2 pieces of gold? Damn, this must be a joke!"
 msgstr ""
 
 #. [value]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:383
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:568
 msgid "Well, well, 50 pieces of gold can still be put to good use."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:456
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:641
 msgid "You retrieve $shipwreck_generator[$info_e].gold pieces of gold."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:507
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:692
 msgid ""
 "The orcs controlling the Bay of Tirigaz were busy defending the port against "
 "some hasty guests..."
 msgstr ""
 
 #. [message]: speaker=Ishkaal
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:512
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:697
 msgid ""
 "You filthy soft-skinned beasts, this is your last oportunity to give us our "
 "swamps back! They'd always been ours, and we are not planning to retreat to "
@@ -1950,7 +1967,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Tan-Vatar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:517
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:702
 msgid ""
 "We care little about your stupid wars at the East. We had a treaty, and you "
 "broke it by trespassing our well-established frontiers, and now you ask to "
@@ -1959,7 +1976,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ishkaal
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:522
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:707
 msgid ""
 "'Well-established', you say? To the Dark Gods with you and your treaty! "
 "Since when can the words of an orc define where and how much can our waters "
@@ -1968,49 +1985,49 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Rishix
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:527
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:712
 msgid "Ha, ha! We'll tear these puny earth-dwellers to pieces!"
 msgstr ""
 
 #. [message]: speaker=Galas
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:574
-msgid "That city to the northwest... is it the port of Tirigaz?"
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:755
+msgid "That city to the northwest...is it the port of Tirigaz?"
 msgstr ""
 
 #. [message]: speaker=Elynia
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:579
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:760
 msgid ""
-"Yes... although it wasn't so well fortified during my times. Things have "
+"Yes...although it wasn't so well fortified during my times. Things have "
 "changed here indeed."
 msgstr ""
 
 #. [message]: speaker=Galas
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:584
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:765
 msgid "Is that smoke I- Wait, I hear some steps..."
 msgstr ""
 
 #. [unit]: type=Orcish Crossbowman, id=Vuruk
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:597
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:778
 msgid "Vuruk"
 msgstr ""
 
 #. [message]: speaker=Vuruk
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:609
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:791
 msgid "Hello, strangers! Are you loyal to the Grand Council?"
 msgstr ""
 
 #. [message]: speaker=Mal Keshar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:614
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:796
 msgid "Ehm..."
 msgstr ""
 
 #. [message]: speaker=Elynia
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:619
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:801
 msgid "Yes, we are."
 msgstr ""
 
 #. [message]: speaker=Vuruk
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:624
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:806
 msgid ""
 "The vile saurians are besieging the port of Tirigaz, and I can't enter the "
 "city and bring some important news to our lord. I think I speak for all of "
@@ -2019,190 +2036,207 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Elynia
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:629
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:811
 msgid "The enemies of our friends are our enemies. We can help you."
 msgstr ""
 
 #. [message]: speaker=Mal Keshar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:634
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:816
 msgid ""
 "(whispering) Although I wonder why those creatures are attacking them in the "
 "first place..."
 msgstr ""
 
 #. [message]: speaker=Elynia
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:639
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:821
 msgid ""
 "We must stop and defeat those saurians before they take over Tirigaz or any "
 "of the villages providing food and resources to the port in the North."
 msgstr ""
 
 #. [message]: speaker=Galas
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:644
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:826
 msgid "Let's prepare for battle again, then."
 msgstr ""
 
 #. [message]: speaker=Galas
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:652
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:834
 msgid "Vuruk, what is it that you need to report to the lord of Tirigaz?"
 msgstr ""
 
 #. [message]: speaker=Vuruk
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:657
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:839
 msgid ""
 "Hmm...it's something I'm not allowed to share with anyone else but lord Tan-"
 "Vatar and his commanders."
 msgstr ""
 
 #. [message]: speaker=Galas
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:662
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:844
 msgid "Very well, then."
 msgstr ""
 
 #. [message]: speaker=Ishkaal
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:676
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:858
 msgid "Come in aid of your kin, friends from the deep sea!"
 msgstr ""
 
 #. [message]: speaker=Mal Keshar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:722
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:910
 msgid ""
 "Ah, hah! They have the support of some wild creatures from the ocean! "
 "Nothing we cannot handle."
 msgstr ""
 
+#. [message]
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:955
+msgid "Where did all these damned spawns come from?"
+msgstr ""
+
+#. [message]: speaker=Ishkaal
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:965
+msgid "This is becoming harder than it was supposed to be."
+msgstr ""
+
 #. [message]: speaker=Vuruk
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:745
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1028
 msgid ""
 "Arthol has been taken over by the saurians! Now there's no hope for Tirigaz!"
 msgstr ""
 
 #. [message]: speaker=Galas
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:768
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1051
 msgid ""
 "Tirigaz has been captured! Our mission has failed, and we won't be able to "
 "reach Zocthanol now!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:801
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1084
 msgid "No! I've got to... uuugh..."
 msgstr ""
 
 #. [message]: speaker=Galas
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:813
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1096
 msgid ""
 "We let the orcish messenger die in the battlefield! The lord of Tirigaz is "
 "not going to like this..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:829
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1112
 msgid "The treacherous ones cannot win! Eeaack..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:853
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1136
 msgid "Damn you, earth-dwellers!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:875
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1158
 msgid ""
 "I have been struck down by the damned minions of an undead lich! This is not "
 "fair!"
 msgstr ""
 
 #. [message]: speaker=Ishkaal
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:890
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1173
 msgid "Noooooo! You'll suffer for this atrocity!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:906
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1189
 msgid "Ha, ha, ha! Die, fool!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:911
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1194
 msgid "No! The city will fall...without a leader... *ack*"
 msgstr ""
 
 #. [message]: speaker=Ishkaal
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:916
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1199
 msgid ""
 "Take that, orcish scum! Your leader is dead now, and your city is now ours!"
 msgstr ""
 
 #. [message]: speaker=Elynia
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:928
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1211
 msgid ""
 "The commander of the defense of Tirigaz has been slain! The city won't "
 "resist for much longer now..."
 msgstr ""
 
 #. [message]
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:944
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1231
 msgid "Don't get any closer to our villages, you vermin!"
 msgstr ""
 
 #. [message]: speaker=Ishkaal
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:949
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1236
 msgid "Crush their villages into the ground!"
 msgstr ""
 
+#. [message]: speaker=Galas
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1266
+msgid ""
+"These villages belong to the lord of Tirigaz! We must protect them, not "
+"capture them!"
+msgstr ""
+
 #. [unit]: type=Orcish Warrior, id=Vitork
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:973
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1290
 msgid "Vitork"
 msgstr ""
 
 #. [message]: speaker=Galas
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:984
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1301
 msgid "Yes! We did it!"
 msgstr ""
 
 #. [message]: speaker=Tan-Vatar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:989
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1306
 msgid ""
 "This is an important battle you've helped us win, travelers. The city of "
 "Tirigaz shall be eternally thankful for your assistance."
 msgstr ""
 
 #. [message]: speaker=Elynia
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:994
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1311
 msgid ""
 "It is our duty to assist our allies in these times. However, I believe this "
 "soldier has something to tell you..."
 msgstr ""
 
 #. [message]: speaker=Vitork
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:999
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1316
 msgid "Vuruk, brother, you made it! Did you discover anything new?"
 msgstr ""
 
 #. [message]: speaker=Vuruk
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1004
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1321
 msgid ""
 "Ha, indeed! I need to talk with you about it later, but now I must report to "
 "the chieftains."
 msgstr ""
 
 #. [message]: speaker=Tan-Vatar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1009
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1326
 msgid ""
 "I see you helped Vuruk return from his mission. Well done! So, how can we "
 "pay our debt with you?"
 msgstr ""
 
 #. [message]: speaker=Mal Keshar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1014
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1331
 msgid ""
 "Um, we are currently looking for transportation services. We must sail "
 "through the open ocean to find a certain island..."
 msgstr ""
 
 #. [message]: speaker=Tan-Vatar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1019
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1336
 msgid ""
 "Don't take it as an offense, but only true fools would dare sail through the "
 "open ocean! Nobody has entered deeper waters and returned in one piece, "
@@ -2214,14 +2248,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mal Keshar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1024
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1341
 msgid ""
 "We have a mission to complete, but like Vuruk's, it is not something we'd "
 "discuss with..."
 msgstr ""
 
 #. [message]: speaker=Elynia
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1029
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1346
 msgid ""
 "We know the location of a certain isle where some elves who once inhabited "
 "the Great Continent went to. We need to gather some information from them - "
@@ -2229,12 +2263,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Mal Keshar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1034
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1351
 msgid "Uh, huh."
 msgstr ""
 
 #. [message]: speaker=Tan-Vatar
-#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1039
+#: After_the_Storm/scenarios/05_Bay_of_Tirigaz.cfg:1356
 msgid ""
 "The Grand Council? Why didn't you mention it in the first place? We'll do "
 "anything we can to help you in your mission. It'll be difficult to gather a "
@@ -2248,13 +2282,8 @@ msgid "Quenoth Isle"
 msgstr ""
 
 #. [event]
-#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:66
+#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:71
 msgid "This scenario has not been made. There's nothing to see here. Go away."
-msgstr ""
-
-#. [endlevel]
-#: After_the_Storm/scenarios/06_Quenoth_Isle.cfg:84
-msgid "To be continued..."
 msgstr ""
 
 #: After_the_Storm/scenarios/10_Return_to_Wesmere.cfg:13
